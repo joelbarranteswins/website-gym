@@ -12,7 +12,9 @@ Este repositorio contiene el código fuente y los recursos para el sitio web del
 - **Formulario de Contacto**: Contáctanos fácilmente a través de nuestro formulario en línea para preguntas, consultas o solicitudes de membresía.
 - **Integración de Redes Sociales**: Conéctate con nosotros en nuestras redes sociales para obtener actualizaciones, consejos de fitness y más.
 
-## Capturas de Mockup
+## Capturas del Mockup
+
+Puedes acceder link publico del Mockup diseñado en Figma [Aquí](https://www.figma.com/file/xAhXEVigajFswKqNwkAz2x/Proyecto-Coderhouse---Joel-Barrantes-Palacios?type=design&node-id=303%3A2912&mode=design&t=aAV8QQWE7735K4LJ-1)
 
 <img src="./assets/markdown-images/desktop_main.png" width="100%" align="center">
 
