@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 html {
     font-size: 62.5%;
 }
@@ -8,8 +10,6 @@ html {
     width: 100%;
     max-width: 1480px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 
 body {
     background-size: cover;
@@ -57,6 +57,10 @@ a {
     top: 1rem;
     width: 100%;
 }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
 
 .logo {
     margin-left: 20px;
@@ -110,6 +114,20 @@ a {
     pointer-events: none;
 }
 
+/* ==========================================================================
+   Main
+   ========================================================================== */
+.background {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
 .introduction {
     width: 30%;
     position: absolute;
@@ -122,6 +140,9 @@ a {
     font-size: 7rem;
     color: #fff;
     text-align: left;
+    /* font-family: "Reddit Mono", monospace;
+    font-weight: 400;
+    font-style: normal; */
     
 }
 
@@ -180,6 +201,10 @@ a {
     border-image-slice: 1;
     border-image-source: linear-gradient(90deg, #F66844 0%, #FF921B 100%);
 }
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 
 footer {
     position: absolute;
