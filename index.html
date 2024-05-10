@@ -56,14 +56,31 @@
     <!-- ======= Floating Window ======= -->
     <div class="card" id="floating-window">
         <div class="card__inner" data-tilt data-tilt-glare>
-            <a class="card__photo" href="https://frontend30.com/cp-magicarea" target="_blank">
+            <a class="card__photo openChat" href="Contact_me" target="_blank">
                 <img class="card__img" src="./assets/images/bussines-girl.jpg" alt="Chat" />
             </a>
-            <p>Hey 👋 Inscríbete en nuestro gimnasio hoy mismo y comienza tu viaje hacia un estilo de vida más saludable! <strong>¿Tienes preguntas?</strong></p>
-            <p>más información sobre nosotros <a href="./pages/about_us.html" class="card__link" target="_blank">Aquí</a>.</p>
+            <p>Hola 👋 Inscríbete en nuestro gimnasio hoy mismo y comienza tu viaje hacia un estilo de vida más saludable! <strong>¿Tienes preguntas?</strong></p>
+            <p>Escribenos en <a href="Contact_me" class="card__link openChat" target="_blank">Aquí</a>.</p>
         </div>
     </div>
     <!-- End Floating Window -->
+
+    <!-- ======= Window Chat ======= -->
+    <div id="chatContainer" class="chat-container">
+        <div class="chat-header">
+            Chat de Ayuda
+        </div>
+        <div id="chatMessages" class="chat-messages">
+            <div class="message incoming">
+                ¡Hola! ¿En qué puedo ayudarte?
+            </div>
+        </div>
+        <div class="chat-input">
+            <textarea id="messageInput" placeholder="Escribe tu mensaje..."></textarea>
+            <button id="sendMessage">Enviar</button>
+        </div>
+    </div>
+    <!-- End Window Chat -->
 
 
     <!-- ======= Footer ======= -->
